@@ -216,9 +216,15 @@ footer .footer-content p:last-of-type {
     background-color: #ffffff;
     padding: 15px 20px;
     display: flex;
-    align-items: center;
+    flex-direction: column;  /* <-- schimbat din row în column */
+    gap: 8px;
     color: #000000;
     font-weight: 500;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
 }
 
 .email-icon {
