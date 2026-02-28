@@ -65,14 +65,14 @@ footer .footer-content p:last-of-type {
 /* ==========================================
    2. INDEX.HTML SPECIFIC STYLES 
    ========================================== */
-.hero {
+.wpb {
     position: relative;
     text-align: center;
     padding: 40px 10% 0;
     background: none;
 }
 
-.hero h1 {
+.wpb h1 {
     color: #ffffff;
     font-size: 2.8rem;
     margin-bottom: 20px;
@@ -80,14 +80,14 @@ footer .footer-content p:last-of-type {
     z-index: 3;
 }
 
-.hero-video-wrapper {
+.wpb-video-wrapper {
     position: relative;
     width: 100%;
     height: 300px;
     overflow: hidden;
 }
 
-.hero-video-wrapper::before {
+.wpb-video-wrapper::before {
     content: "";
     position: absolute;
     top: 0;
@@ -98,7 +98,7 @@ footer .footer-content p:last-of-type {
     z-index: 2;
 }
 
-.hero-video {
+.wpb-video {
     position: absolute;
     top: 0;
     left: 0;
