@@ -135,8 +135,15 @@ footer .footer-content p:last-of-type {
     transition: transform 0.3s;
 }
 
-.card:hover {
+/* Keep the bounce and border lighting ONLY on the news page */
+.main-content .card:hover {
     transform: translateY(-5px);
+    border-color: #888;
+}
+
+/* Homepage specific: keep the border lighting but REMOVE the vertical bounce */
+body > .services .card:hover {
+    transform: none;
     border-color: #888;
 }
 
